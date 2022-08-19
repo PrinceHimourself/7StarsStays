@@ -1,7 +1,6 @@
 /* CSS Document */
 body{
-	font-family: 'Alumni Sans Inline One', cursive;
-	font-family: 'Source Serif Pro', serif;
+	font-family: 'Oxygen', sans-serif;
 	margin: 0;
 	overflow-x: hidden;
 
@@ -189,21 +188,14 @@ p{
 	padding: 80px;
 }
 
-.sub-sectionFAQ{
+.sub-sectionAmenities{
 	
 	display: flex;
 	justify-content: space-around;
 	
 }
 
-.headshot{
-	width: 300px;
-	border-radius: 300px;
-}
-.headshot-container{
-	display: flex;
-	align-items: center;
-}
+
 .project-card{
 	width: 300px;
 	height: 500px;
