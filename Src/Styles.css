@@ -6,24 +6,33 @@ body{
 
 }
 
-Section{
-	background-color: #94908D;	
 
-	}
-	.main{
+.sectionHeader{
 		
-		background-color: #31302E;
-		height: 105vh;
-		color: #C3C2BE;
-		font-size: 40px;
+	height: 105vh;
+	color: #C3C2BE;
+	font-size: 40px;
+	display: flex;
+	justify-content: center;
 		
+}
+.header-image{
+	float: left;
+	height: 200px;
+}
+.motto-image{
+	float: left;
+	height: 200px;
+}
+.amenities-image{
+	float: left;
+	height: 200px;
 }
 
 
 footer{
 	background-color: #010101;
-	color: #C3C2BE;
-	padding: 1px;
+	
 }
 .contact-form{
 	width: 100%;
@@ -86,7 +95,7 @@ input:focus~label,input:valid~label,textarea:focus~label, textarea:valid~label{
   
 nav{
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	text-align: right;
 
 }
@@ -166,29 +175,31 @@ p{
 	margin: 15px;
 }
 .socials{
- padding-bottom: 200px;
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 30px;
 
 }
 .socials-icon{
-	display: flex;
+	
 	height: 35px;
 	margin: 13px;
 }
 
-.sub-section{
+.sectionMotto{
 	
 	display: flex;
 	justify-content: space-around;
 	padding: 80px;
 }
-.sub-section2{
+.sectionLocations{
 	display: flex;
 	flex-direction: column;
 	text-align: center;
 	padding: 80px;
 }
 
-.sub-sectionAmenities{
+.sectionAmenities{
 	
 	display: flex;
 	justify-content: space-around;
@@ -206,5 +217,15 @@ p{
 	display: flex;
 	justify-content: space-around;
 }
-
+.project-image{
+	margin-top: 25px;
+	height: 150px;
+	width: 250px;
+	border-radius: 20px;
+}
+.project-link{
+	color: gold;
+	text-decoration: none;
+	
+}
 
